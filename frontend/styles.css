@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 960px;
+}
+
+.filter-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.patterns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pattern-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.pattern-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #666666;
+}
+
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.pattern-cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  font-size: 1.5em;
+}
+
+.pattern-cell.x {
+  color: red;
+  background-color: #ffe5e5;
+}
+
+.pattern-cell.o {
+  color: blue;
+  background-color: #e5f0ff;
+}
+
+.metadata {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: #666666;
+}
+
+.tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.tag {
+  padding: 3px 6px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.dropdown {
+  display: inline-block;
+  margin: 5px;
+}
+
+.dropdown select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "001",
+    "pattern": [
+      [0, 1, 0],
+      [1, 0, 1],
+      [0, 1, 0]
+    ],
+    "corners": 0,
+    "middle": 0,
+    "edge": 4,
+    "tags": [
+      "s/all",
+      "s/full",
+      "s/diagonal",
+      "s/edge",
+      "s/rotational",
+      "r/logic"
+    ],
+    "pair_id": "",
+    "alias": "True"
+  },
+  {
+    "id": "002",
+    "pattern": [
+      [1, 0, 1],
+      [0, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 4,
+    "middle": 0,
+    "edge": 0,
+    "tags": [
+      "s/all",
+      "s/full",
+      "s/diagonal",
+      "s/edge",
+      "s/rotational",
+      "r/logic"
+    ],
+    "pair_id": "",
+    "alias": "False"
+  },
+  {
+    "id": "003",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 1],
+      [0, 1, 1]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "pair_id": "",
+    "alias": "And"
+  },
+  {
+    "id": "004",
+    "pattern": [
+      [1, 0, 0],
+      [0, 0, 1],
+      [0, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "pair_id": "",
+    "alias": "Or"
+  },
+  {
+    "id": "005",
+    "pattern": [
+      [1, 0, 0],
+      [0, 1, 1],
+      [0, 1, 0]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "pair_id": "",
+    "alias": "Not"
+  },
+  {
+    "id": "006",
+    "pattern": [
+      [0, 0, 0],
+      [1, 0, 1],
+      [1, 1, 0]
+    ],
+    "corners": 1,
+    "middle": 0,
+    "edge": 3,
+    "tags": ["t/pairwise"],
+    "pair_id": "p6",
+    "alias": "Start"
+  },
+  {
+    "id": "007",
+    "pattern": [
+      [0, 0, 0],
+      [1, 0, 1],
+      [0, 1, 1]
+    ],
+    "corners": 1,
+    "middle": 0,
+    "edge": 3,
+    "tags": ["t/pairwise"],
+    "pair_id": "p6",
+    "alias": "End"
+  },
+  {
+    "id": "008",
+    "pattern": [
+      [0, 1, 1],
+      [0, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/logic"],
+    "pair_id": "p9",
+    "alias": "Subject / You"
+  },
+  {
+    "id": "009",
+    "pattern": [
+      [0, 0, 1],
+      [1, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/logic"],
+    "pair_id": "p9",
+    "alias": "If"
+  },
+  {
+    "id": "010",
+    "pattern": [
+      [0, 1, 0],
+      [1, 1, 1],
+      [0, 0, 0]
+    ],
+    "corners": 0,
+    "middle": 1,
+    "edge": 3,
+    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "pair_id": "",
+    "alias": "Arrived / Equals"
+  },
+  {
+    "id": "011",
+    "pattern": [
+      [0, 0, 0],
+      [1, 1, 1],
+      [0, 0, 1]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p4",
+    "alias": "West"
+  },
+  {
+    "id": "012",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 1],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p7",
+    "alias": "North West"
+  },
+  {
+    "id": "013",
+    "pattern": [
+      [0, 0, 0],
+      [1, 0, 1],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["s/all", "s/edge", "r/directions"],
+    "pair_id": "",
+    "alias": "North"
+  },
+  {
+    "id": "014",
+    "pattern": [
+      [0, 0, 0],
+      [1, 1, 0],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p7",
+    "alias": "North East"
+  },
+  {
+    "id": "015",
+    "pattern": [
+      [0, 0, 0],
+      [1, 1, 1],
+      [1, 0, 0]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p4",
+    "alias": "East"
+  },
+  {
+    "id": "016",
+    "pattern": [
+      [0, 1, 0],
+      [1, 0, 1],
+      [0, 0, 1]
+    ],
+    "corners": 1,
+    "middle": 0,
+    "edge": 3,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p8",
+    "alias": "East"
+  },
+  {
+    "id": "017",
+    "pattern": [
+      [0, 1, 0],
+      [0, 0, 1],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "pn",
+    "alias": "South East"
+  },
+  {
+    "id": "018",
+    "pattern": [
+      [0, 1, 0],
+      [0, 1, 0],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["s/all", "s/edge", "r/directions"],
+    "pair_id": "",
+    "alias": "South"
+  },
+  {
+    "id": "019",
+    "pattern": [
+      [0, 1, 0],
+      [1, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "pn",
+    "alias": "South West"
+  },
+  {
+    "id": "020",
+    "pattern": [
+      [0, 1, 0],
+      [1, 0, 1],
+      [1, 0, 0]
+    ],
+    "corners": 1,
+    "middle": 0,
+    "edge": 3,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p8",
+    "alias": "West"
+  },
+  {
+    "id": "021",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 0],
+      [1, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "pair_id": "",
+    "alias": "Up / Add"
+  },
+  {
+    "id": "022",
+    "pattern": [
+      [0, 1, 0],
+      [0, 0, 0],
+      [1, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "pair_id": "",
+    "alias": "Down / Subtract"
+  },
+  {
+    "id": "023",
+    "pattern": [
+      [0, 0, 1],
+      [1, 0, 1],
+      [1, 0, 0]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/directions", "r/logic"],
+    "pair_id": "p1",
+    "alias": "Clockwise / Multiply "
+  },
+  {
+    "id": "024",
+    "pattern": [
+      [1, 0, 0],
+      [1, 0, 1],
+      [0, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/directions", "r/logic"],
+    "pair_id": "p1",
+    "alias": "Counter Clockwise / Divide"
+  },
+  {
+    "id": "025",
+    "pattern": [
+      [0, 0, 1],
+      [0, 1, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 1,
+    "edge": 0,
+    "tags": ["s/all", "s/diagonal", "r/counting"],
+    "pair_id": "",
+    "alias": "Zero"
+  },
+  {
+    "id": "026",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [1, 1, 0]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["s/all", "s/diagonal", "r/counting"],
+    "pair_id": "",
+    "alias": "One"
+  },
+  {
+    "id": "027",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p3",
+    "alias": "Two"
+  },
+  {
+    "id": "028",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p2",
+    "alias": "Three"
+  },
+  {
+    "id": "029",
+    "pattern": [
+      [0, 0, 0],
+      [0, 0, 1],
+      [1, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p2",
+    "alias": "Four"
+  },
+  {
+    "id": "030",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 0],
+      [1, 1, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p3",
+    "alias": "Five"
+  },
+  {
+    "id": "031",
+    "pattern": [
+      [0, 0, 1],
+      [0, 1, 1],
+      [1, 0, 0]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p0",
+    "alias": "Six"
+  },
+  {
+    "id": "032",
+    "pattern": [
+      [0, 0, 1],
+      [0, 1, 1],
+      [0, 1, 0]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p5",
+    "alias": "Seven"
+  },
+  {
+    "id": "033",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 1],
+      [1, 1, 0]
+    ],
+    "corners": 1,
+    "middle": 1,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p5",
+    "alias": "Eight"
+  },
+  {
+    "id": "034",
+    "pattern": [
+      [0, 0, 1],
+      [0, 1, 0],
+      [1, 1, 0]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p0",
+    "alias": "Nine"
+  }
+]
