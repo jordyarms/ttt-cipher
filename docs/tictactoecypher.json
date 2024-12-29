@@ -93,7 +93,7 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise"],
+    "tags": ["t/pairwise", "r/orientation"],
     "pair_id": "p6",
     "alias": "Start"
   },
@@ -107,7 +107,7 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise"],
+    "tags": ["t/pairwise", "r/orientation"],
     "pair_id": "p6",
     "alias": "End"
   },
@@ -149,7 +149,7 @@
     "corners": 0,
     "middle": 1,
     "edge": 3,
-    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/orientation", "r/logic"],
     "pair_id": "",
     "alias": "Arrived / Equals"
   },
@@ -303,7 +303,7 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/orientation", "r/logic"],
     "pair_id": "",
     "alias": "Up / Add"
   },
@@ -317,7 +317,7 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["s/all", "s/edge", "r/directions", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/orientation", "r/logic"],
     "pair_id": "",
     "alias": "Down / Subtract"
   },
@@ -331,7 +331,7 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/directions", "r/logic"],
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation", "r/logic"],
     "pair_id": "p1",
     "alias": "Clockwise / Multiply "
   },
@@ -345,7 +345,7 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/directions", "r/logic"],
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation", "r/logic"],
     "pair_id": "p1",
     "alias": "Counter Clockwise / Divide"
   },
@@ -378,62 +378,6 @@
     "alias": "One"
   },
   {
-    "id": "027",
-    "pattern": [
-      [0, 0, 1],
-      [0, 0, 1],
-      [1, 0, 1]
-    ],
-    "corners": 3,
-    "middle": 0,
-    "edge": 1,
-    "tags": ["t/pairwise", "r/counting"],
-    "pair_id": "p3",
-    "alias": "Two"
-  },
-  {
-    "id": "028",
-    "pattern": [
-      [0, 0, 1],
-      [0, 0, 1],
-      [0, 1, 1]
-    ],
-    "corners": 2,
-    "middle": 0,
-    "edge": 2,
-    "tags": ["t/pairwise", "r/counting"],
-    "pair_id": "p2",
-    "alias": "Three"
-  },
-  {
-    "id": "029",
-    "pattern": [
-      [0, 0, 0],
-      [0, 0, 1],
-      [1, 1, 1]
-    ],
-    "corners": 2,
-    "middle": 0,
-    "edge": 2,
-    "tags": ["t/pairwise", "r/counting"],
-    "pair_id": "p2",
-    "alias": "Four"
-  },
-  {
-    "id": "030",
-    "pattern": [
-      [0, 0, 1],
-      [0, 0, 0],
-      [1, 1, 1]
-    ],
-    "corners": 3,
-    "middle": 0,
-    "edge": 1,
-    "tags": ["t/pairwise", "r/counting"],
-    "pair_id": "p3",
-    "alias": "Five"
-  },
-  {
     "id": "031",
     "pattern": [
       [0, 0, 1],
@@ -445,7 +389,7 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p0",
-    "alias": "Six"
+    "alias": "Two"
   },
   {
     "id": "032",
@@ -459,7 +403,7 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p5",
-    "alias": "Seven"
+    "alias": "Three"
   },
   {
     "id": "033",
@@ -473,7 +417,7 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p5",
-    "alias": "Eight"
+    "alias": "Four"
   },
   {
     "id": "034",
@@ -487,6 +431,62 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p0",
+    "alias": "Five"
+  },
+  {
+    "id": "030",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 0],
+      [1, 1, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p3",
+    "alias": "Six"
+  },
+  {
+    "id": "029",
+    "pattern": [
+      [0, 0, 0],
+      [0, 0, 1],
+      [1, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p2",
+    "alias": "Seven"
+  },
+  {
+    "id": "028",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [0, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 0,
+    "edge": 2,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p2",
+    "alias": "Eight"
+  },
+  {
+    "id": "027",
+    "pattern": [
+      [0, 0, 1],
+      [0, 0, 1],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/counting"],
+    "pair_id": "p3",
     "alias": "Nine"
   }
 ]
