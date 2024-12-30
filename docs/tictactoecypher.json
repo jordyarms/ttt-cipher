@@ -84,20 +84,6 @@
     "alias": "False"
   },
   {
-    "id": "021",
-    "pattern": [
-      [0, 0, 0],
-      [0, 1, 0],
-      [1, 1, 1]
-    ],
-    "corners": 2,
-    "middle": 1,
-    "edge": 1,
-    "tags": ["s/all", "s/edge", "r/logic"],
-    "pair_id": "",
-    "alias": "And"
-  },
-  {
     "id": "022",
     "pattern": [
       [0, 1, 0],
@@ -107,6 +93,20 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
+    "tags": ["s/all", "s/edge", "r/logic"],
+    "pair_id": "",
+    "alias": "And"
+  },
+  {
+    "id": "021",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 0],
+      [1, 1, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
     "tags": ["s/all", "s/edge", "r/logic"],
     "pair_id": "",
     "alias": "Or"
@@ -124,34 +124,6 @@
     "tags": ["s/all", "s/edge", "r/logic"],
     "pair_id": "",
     "alias": "Not"
-  },
-  {
-    "id": "009",
-    "pattern": [
-      [0, 0, 1],
-      [1, 0, 0],
-      [1, 0, 1]
-    ],
-    "corners": 3,
-    "middle": 0,
-    "edge": 1,
-    "tags": ["t/pairwise", "r/logic"],
-    "pair_id": "p9",
-    "alias": "Variable X"
-  },
-  {
-    "id": "008",
-    "pattern": [
-      [0, 1, 1],
-      [0, 0, 0],
-      [1, 0, 1]
-    ],
-    "corners": 3,
-    "middle": 0,
-    "edge": 1,
-    "tags": ["t/pairwise", "r/logic"],
-    "pair_id": "p9",
-    "alias": "Variable Y"
   },
   {
     "id": "006",
@@ -488,5 +460,33 @@
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p3",
     "alias": "Nine"
+  },
+  {
+    "id": "009",
+    "pattern": [
+      [0, 0, 1],
+      [1, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/logic"],
+    "pair_id": "p9",
+    "alias": "Variable X"
+  },
+  {
+    "id": "008",
+    "pattern": [
+      [0, 1, 1],
+      [0, 0, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 0,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/logic"],
+    "pair_id": "p9",
+    "alias": "Variable Y"
   }
 ]
