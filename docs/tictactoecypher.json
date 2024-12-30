@@ -266,20 +266,6 @@
     "alias": "West"
   },
   {
-    "id": "025",
-    "pattern": [
-      [0, 0, 1],
-      [0, 1, 0],
-      [1, 0, 1]
-    ],
-    "corners": 3,
-    "middle": 1,
-    "edge": 0,
-    "tags": ["s/all", "s/diagonal", "r/counting"],
-    "pair_id": "",
-    "alias": "Zero"
-  },
-  {
     "id": "026",
     "pattern": [
       [0, 0, 1],
@@ -405,7 +391,20 @@
     "pair_id": "p3",
     "alias": "Nine"
   },
-
+  {
+    "id": "025",
+    "pattern": [
+      [0, 0, 1],
+      [0, 1, 0],
+      [1, 0, 1]
+    ],
+    "corners": 3,
+    "middle": 1,
+    "edge": 0,
+    "tags": ["s/all", "s/diagonal", "r/counting"],
+    "pair_id": "",
+    "alias": "Zero"
+  },
   {
     "id": "015",
     "pattern": [
