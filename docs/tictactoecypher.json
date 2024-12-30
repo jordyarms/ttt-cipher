@@ -416,9 +416,9 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/position", "r/directions"],
     "pair_id": "p4",
-    "alias": "Insert Space"
+    "alias": "Insert Space / Zenith"
   },
   {
     "id": "011",
@@ -430,9 +430,9 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/position", "r/directions"],
     "pair_id": "p4",
-    "alias": "Delete Space"
+    "alias": "Delete Space / Nadir"
   },
   {
     "id": "006",
