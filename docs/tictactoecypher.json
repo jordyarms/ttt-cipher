@@ -15,10 +15,11 @@
       "s/diagonal",
       "s/edge",
       "s/rotational",
-      "r/logic"
+      "r/logic",
+      "r/inputs"
     ],
     "pair_id": "",
-    "alias": "Equals"
+    "alias": "= | Equals"
   },
   {
     "id": "002",
@@ -36,7 +37,8 @@
       "s/diagonal",
       "s/edge",
       "s/rotational",
-      "r/logic"
+      "r/logic",
+      "r/inputs"
     ],
     "pair_id": "",
     "alias": "Execute"
@@ -51,7 +53,7 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "tags": ["s/all", "s/diagonal", "r/logic", "r/inputs"],
     "pair_id": "",
     "alias": "If"
   },
@@ -65,7 +67,7 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "tags": ["s/all", "s/diagonal", "r/logic", "r/inputs"],
     "pair_id": "",
     "alias": "True"
   },
@@ -79,7 +81,7 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["s/all", "s/diagonal", "r/logic"],
+    "tags": ["s/all", "s/diagonal", "r/logic", "r/inputs"],
     "pair_id": "",
     "alias": "False"
   },
@@ -93,9 +95,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["s/all", "s/edge", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "And"
+    "alias": "∧ And"
   },
   {
     "id": "021",
@@ -107,9 +109,9 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["s/all", "s/edge", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "Or"
+    "alias": "∨ Or"
   },
   {
     "id": "010",
@@ -121,9 +123,9 @@
     "corners": 0,
     "middle": 1,
     "edge": 3,
-    "tags": ["s/all", "s/edge", "r/logic"],
+    "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "Not"
+    "alias": "¬ Not"
   },
   {
     "id": "023",
@@ -135,9 +137,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/position", "r/logic"],
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/navigation", "r/inputs"],
     "pair_id": "p1",
-    "alias": "Multiply / Right / Forward"
+    "alias": "× | ↻"
   },
   {
     "id": "024",
@@ -149,9 +151,16 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/position", "r/logic"],
+    "tags": [
+      "t/pairwise",
+      "s/all",
+      "s/rotational",
+      "r/inputs",
+      "r/navigation",
+      "r/inputs"
+    ],
     "pair_id": "p1",
-    "alias": "Divide / Left / Backward"
+    "alias": "÷ | ↺"
   },
   {
     "id": "012",
@@ -163,9 +172,10 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/inputs"],
     "pair_id": "p7",
-    "alias": "North West"
+    "alias": "' | North West",
+    "CD": "NW"
   },
   {
     "id": "013",
@@ -177,9 +187,10 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["s/all", "s/edge", "r/directions", "r/logic", "r/position"],
+    "tags": ["s/all", "s/edge", "r/directions", "r/inputs", "r/navigation"],
     "pair_id": "",
-    "alias": "Add / Up / North"
+    "alias": "+ | ↑ | North",
+    "CD": "N"
   },
   {
     "id": "014",
@@ -191,9 +202,10 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/inputs"],
     "pair_id": "p7",
-    "alias": "North East"
+    "alias": ", | North East",
+    "CD": "NE"
   },
   {
     "id": "016",
@@ -205,9 +217,10 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/navigation"],
     "pair_id": "p8",
-    "alias": "East"
+    "alias": "→ | East",
+    "CD": "E"
   },
   {
     "id": "017",
@@ -221,7 +234,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/directions"],
     "pair_id": "pn",
-    "alias": "South East"
+    "alias": "South East",
+    "CD": "SE"
   },
   {
     "id": "018",
@@ -233,9 +247,10 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["s/all", "s/edge", "r/directions", "r/logic", "r/position"],
+    "tags": ["s/all", "s/edge", "r/directions", "r/inputs", "r/navigation"],
     "pair_id": "",
-    "alias": "Subtract / Down / South"
+    "alias": "- | ↓ | South",
+    "CD": "S"
   },
   {
     "id": "019",
@@ -249,7 +264,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/directions"],
     "pair_id": "pn",
-    "alias": "South West"
+    "alias": "South West",
+    "CD": "SW"
   },
   {
     "id": "020",
@@ -261,9 +277,10 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/navigation"],
     "pair_id": "p8",
-    "alias": "West"
+    "alias": "← | West",
+    "CD": "W"
   },
   {
     "id": "026",
@@ -277,7 +294,8 @@
     "edge": 2,
     "tags": ["s/all", "s/diagonal", "r/counting"],
     "pair_id": "",
-    "alias": "One"
+    "alias": "One",
+    "num": 1
   },
   {
     "id": "031",
@@ -291,7 +309,8 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p0",
-    "alias": "Two"
+    "alias": "Two",
+    "num": 2
   },
   {
     "id": "032",
@@ -305,7 +324,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p5",
-    "alias": "Three"
+    "alias": "Three",
+    "num": 3
   },
   {
     "id": "033",
@@ -319,7 +339,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p5",
-    "alias": "Four"
+    "alias": "Four",
+    "num": 4
   },
   {
     "id": "034",
@@ -333,7 +354,8 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p0",
-    "alias": "Five"
+    "alias": "Five",
+    "num": 5
   },
   {
     "id": "030",
@@ -347,7 +369,8 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p3",
-    "alias": "Six"
+    "alias": "Six",
+    "num": 6
   },
   {
     "id": "029",
@@ -361,7 +384,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p2",
-    "alias": "Seven"
+    "alias": "Seven",
+    "num": 7
   },
   {
     "id": "028",
@@ -375,7 +399,8 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p2",
-    "alias": "Eight"
+    "alias": "Eight",
+    "num": 8
   },
   {
     "id": "027",
@@ -389,7 +414,8 @@
     "edge": 1,
     "tags": ["t/pairwise", "r/counting"],
     "pair_id": "p3",
-    "alias": "Nine"
+    "alias": "Nine",
+    "num": 9
   },
   {
     "id": "025",
@@ -403,7 +429,8 @@
     "edge": 0,
     "tags": ["s/all", "s/diagonal", "r/counting"],
     "pair_id": "",
-    "alias": "Zero"
+    "alias": "Zero",
+    "num": 0
   },
   {
     "id": "015",
@@ -415,9 +442,10 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["t/pairwise", "r/position", "r/directions"],
+    "tags": ["t/pairwise", "r/inputs", "r/directions", "r/navigation"],
     "pair_id": "p4",
-    "alias": "Insert Space / Zenith"
+    "alias": "Space | ○ | Zenith",
+    "CD": "ZN"
   },
   {
     "id": "011",
@@ -429,9 +457,10 @@
     "corners": 1,
     "middle": 1,
     "edge": 2,
-    "tags": ["t/pairwise", "r/position", "r/directions"],
+    "tags": ["t/pairwise", "r/inputs", "r/directions", "r/navigation"],
     "pair_id": "p4",
-    "alias": "Delete Space / Nadir"
+    "alias": "Delete | • | Nadir",
+    "CD": "ND"
   },
   {
     "id": "006",
@@ -443,7 +472,7 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/inputs"],
     "pair_id": "p6",
     "alias": "Open Parenthesis"
   },
@@ -457,7 +486,7 @@
     "corners": 1,
     "middle": 0,
     "edge": 3,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/inputs"],
     "pair_id": "p6",
     "alias": "Close Parenthesis"
   },
@@ -471,7 +500,7 @@
     "corners": 3,
     "middle": 0,
     "edge": 1,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/inputs"],
     "pair_id": "p9",
     "alias": "Variable X"
   },
@@ -485,7 +514,7 @@
     "corners": 3,
     "middle": 0,
     "edge": 1,
-    "tags": ["t/pairwise", "r/position"],
+    "tags": ["t/pairwise", "r/inputs"],
     "pair_id": "p9",
     "alias": "Variable Y"
   }
