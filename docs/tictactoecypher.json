@@ -191,9 +191,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation"],
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation", "r/logic"],
     "pair_id": "p1",
-    "alias": "Clockwise / Forward"
+    "alias": "Multiply / Clockwise / Forward"
   },
   {
     "id": "024",
@@ -205,9 +205,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation"],
+    "tags": ["t/pairwise", "s/all", "s/rotational", "r/orientation", "r/logic"],
     "pair_id": "p1",
-    "alias": "Counter Clockwise / Backward"
+    "alias": "Divide / Counter Clockwise / Backward"
   },
   {
     "id": "013",
@@ -219,9 +219,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["s/all", "s/edge", "r/directions"],
+    "tags": ["s/all", "s/edge", "r/directions", "r/logic", "r/orientation"],
     "pair_id": "",
-    "alias": "North"
+    "alias": "Add / Up / North"
   },
   {
     "id": "014",
@@ -289,9 +289,9 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["s/all", "s/edge", "r/directions"],
+    "tags": ["s/all", "s/edge", "r/directions", "r/logic", "r/orientation"],
     "pair_id": "",
-    "alias": "South"
+    "alias": "Subtract / Down / South"
   },
   {
     "id": "019",
