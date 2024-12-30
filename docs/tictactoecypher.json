@@ -154,6 +154,20 @@
     "alias": "Divide / Left / Backward"
   },
   {
+    "id": "012",
+    "pattern": [
+      [0, 0, 0],
+      [0, 1, 1],
+      [1, 0, 1]
+    ],
+    "corners": 2,
+    "middle": 1,
+    "edge": 1,
+    "tags": ["t/pairwise", "r/directions"],
+    "pair_id": "p7",
+    "alias": "North West"
+  },
+  {
     "id": "013",
     "pattern": [
       [0, 0, 0],
@@ -250,20 +264,6 @@
     "tags": ["t/pairwise", "r/directions"],
     "pair_id": "p8",
     "alias": "West"
-  },
-  {
-    "id": "012",
-    "pattern": [
-      [0, 0, 0],
-      [0, 1, 1],
-      [1, 0, 1]
-    ],
-    "corners": 2,
-    "middle": 1,
-    "edge": 1,
-    "tags": ["t/pairwise", "r/directions"],
-    "pair_id": "p7",
-    "alias": "North West"
   },
   {
     "id": "025",
