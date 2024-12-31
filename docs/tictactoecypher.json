@@ -114,20 +114,6 @@
     "alias": "∨ | Or"
   },
   {
-    "id": "010",
-    "pattern": [
-      [0, 1, 0],
-      [1, 1, 1],
-      [0, 0, 0]
-    ],
-    "corners": 0,
-    "middle": 1,
-    "edge": 3,
-    "tags": ["s/all", "s/edge", "r/input", "r/navigation", "r/directions"],
-    "pair_id": "",
-    "alias": "null | ○ | Origin"
-  },
-  {
     "id": "023",
     "pattern": [
       [0, 0, 1],
@@ -446,6 +432,20 @@
     "pair_id": "p4",
     "alias": "Space | ⊙ | Zenith",
     "CD": "ZN"
+  },
+  {
+    "id": "010",
+    "pattern": [
+      [0, 1, 0],
+      [1, 1, 1],
+      [0, 0, 0]
+    ],
+    "corners": 0,
+    "middle": 1,
+    "edge": 3,
+    "tags": ["s/all", "s/edge", "r/inputs", "r/navigation", "r/directions"],
+    "pair_id": "",
+    "alias": "null | ○ | Origin"
   },
   {
     "id": "011",
