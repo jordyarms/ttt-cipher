@@ -172,9 +172,9 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["t/pairwise", "r/directions", "r/inputs"],
+    "tags": ["t/pairwise", "r/directions", "r/navigation", "r/inputs"],
     "pair_id": "p7",
-    "alias": "' | North West",
+    "alias": "' | ↖ | North West",
     "CD": "NW"
   },
   {
@@ -202,9 +202,9 @@
     "corners": 2,
     "middle": 1,
     "edge": 1,
-    "tags": ["t/pairwise", "r/directions", "r/inputs"],
+    "tags": ["t/pairwise", "r/directions", "r/inputs", "r/navigation"],
     "pair_id": "p7",
-    "alias": ", | North East",
+    "alias": ", | ↗ | North East",
     "CD": "NE"
   },
   {
@@ -232,9 +232,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/navigation"],
     "pair_id": "pn",
-    "alias": "South East",
+    "alias": "↘ | South East",
     "CD": "SE"
   },
   {
@@ -262,9 +262,9 @@
     "corners": 2,
     "middle": 0,
     "edge": 2,
-    "tags": ["t/pairwise", "r/directions"],
+    "tags": ["t/pairwise", "r/directions", "r/navigation"],
     "pair_id": "pn",
-    "alias": "South West",
+    "alias": "↙ | South West",
     "CD": "SW"
   },
   {
