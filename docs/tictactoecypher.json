@@ -83,7 +83,7 @@
     "edge": 2,
     "tags": ["s/all", "s/diagonal", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "False"
+    "alias": "¬ | Not"
   },
   {
     "id": "022",
@@ -97,7 +97,7 @@
     "edge": 2,
     "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "∧ And"
+    "alias": "∧ | And"
   },
   {
     "id": "021",
@@ -111,7 +111,7 @@
     "edge": 1,
     "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
     "pair_id": "",
-    "alias": "∨ Or"
+    "alias": "∨ | Or"
   },
   {
     "id": "010",
@@ -123,9 +123,9 @@
     "corners": 0,
     "middle": 1,
     "edge": 3,
-    "tags": ["s/all", "s/edge", "r/logic", "r/inputs"],
+    "tags": ["s/all", "s/edge", "r/input", "r/navigation", "r/directions"],
     "pair_id": "",
-    "alias": "¬ Not"
+    "alias": "null | ○ | Origin"
   },
   {
     "id": "023",
@@ -444,7 +444,7 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/inputs", "r/directions", "r/navigation"],
     "pair_id": "p4",
-    "alias": "Space | ○ | Zenith",
+    "alias": "Space | ⊙ | Zenith",
     "CD": "ZN"
   },
   {
@@ -459,7 +459,7 @@
     "edge": 2,
     "tags": ["t/pairwise", "r/inputs", "r/directions", "r/navigation"],
     "pair_id": "p4",
-    "alias": "Delete | • | Nadir",
+    "alias": "Delete | ⊗ | Nadir",
     "CD": "ND"
   },
   {
