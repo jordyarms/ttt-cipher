@@ -1,4 +1,5 @@
-# Tic Tac Toe Cypher
+
+# TTT Cypher
 
 A Tic-Tac-Toe Cypher and accompanying Python code and reference visualization.
 
