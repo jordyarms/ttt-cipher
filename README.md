@@ -1,9 +1,9 @@
 
-# TTT Cypher
+# TTT Cipher
 
-A Tic-Tac-Toe Cypher and accompanying Python code and reference visualization.
+A Tic-Tac-Toe Cipher and accompanying Python code and reference visualization.
 
-Built in a response to wondering if you could use a tic-tac-toe board as a cypher. 
+Built in a response to wondering if you could use a tic-tac-toe board as a cipher. 
 
 ## Repository Structure
 
